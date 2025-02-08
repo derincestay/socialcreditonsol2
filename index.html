@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Chinese Credit Score</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background: transparent; /* Siyahı kaldırıp transparan yaptım */
+      color: white;
+    }
+
+    .logo {
+      font-size: 18px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    .social-icons {
+      display: flex;
+      gap: 15px;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .social-icons li {
+      display: inline-block;
+    }
+
+    .social-icons a {
+      font-size: 22px;
+      color: white;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .social-icons a:hover {
+      color: #00aced;
+    }
+
+    .social-icons img {
+      width: 22px;
+      height: 22px;
+    }
+
+    /* Mobil cihazlar için düzenleme */
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .social-icons {
+        gap: 10px;
+        margin-top: 10px;
+      }
+
+      .social-icons a {
+        font-size: 20px;
+      }
+
+      .social-icons img {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+    <section>
+      <div class="container">
+        <header>
+          <a href="#" class="logo">Social Credit on Sol</a>
+         <ul class="social-icons">
+           <li><a href="https://x.com/SOCIALCREDITS0L" target="_blank"><i class="fab fa-twitter"></i></a></li>
+           <li><a href="https://dexscreener.com/solana/example_contract" target="_blank">
+             <img src="https://dexscreener.com/favicon.ico" alt="DexScreener">
+           </a></li>
+           <li><a href="https://t.me/socialcreditonsol" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
+         </ul>
+        </header>
+        <div class="content">
+          <h2>Social Credit on Sol</h2>
+          <p>Upgrade your Social Credit with every transaction!</p>
+          <br>
+          <a href="https://github.com/EVMai-ai/snooai_public">Increase Your Score</a>
+        </div>
+        <div class="imgBx"><img src="snoo.png" alt=""></div>
+        <p class="copyright">
+          Chinese social credit on Sol
+        </p>
+      </div>
+    </section>
+
+</body>
+</html>
