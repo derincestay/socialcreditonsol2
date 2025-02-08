@@ -23,7 +23,7 @@
       justify-content: space-between;
       align-items: center;
       padding: 10px 20px;
-      background: transparent; /* Siyahı kaldırıp transparan yaptım */
+      background: transparent;
       color: white;
     }
 
@@ -62,6 +62,11 @@
       height: 22px;
     }
 
+    .content {
+      margin-top: 50px; /* İçeriği biraz aşağı kaydırdım */
+      text-align: center;
+    }
+
     /* Mobil cihazlar için düzenleme */
     @media (max-width: 600px) {
       header {
@@ -73,6 +78,9 @@
       .social-icons {
         gap: 10px;
         margin-top: 10px;
+        background: rgba(0, 0, 0, 0.5); /* %50 siyah transparan arka plan */
+        padding: 10px;
+        border-radius: 10px; /* Köşeleri yuvarladım */
       }
 
       .social-icons a {
@@ -115,3 +123,4 @@
 
 </body>
 </html>
+
