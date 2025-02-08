@@ -63,22 +63,22 @@
     }
 
     .content {
-      margin-top: 50px; /* İçeriği biraz aşağı kaydırdım */
+      margin-top: 50px;
       text-align: center;
     }
 
-    /* Mobil cihazlar için özel düzenlemeler */
+    /* Mobil cihazlar için düzenlemeler */
     @media (max-width: 600px) {
       .logo {
-        display: none; /* Sadece mobilde başlığı kaldırdım */
+        display: none; /* Mobilde başlığı gizledim */
       }
 
       .social-icons {
         gap: 10px;
-        margin-top: 10px;
+        margin-top: 15px; /* Sadece mobilde simgeleri biraz aşağı aldım */
         background: rgba(0, 0, 0, 0.5); /* %50 siyah transparan arka plan */
         padding: 10px;
-        border-radius: 10px; /* Köşeleri yuvarladım */
+        border-radius: 10px;
       }
 
       .social-icons a {
@@ -97,7 +97,7 @@
     <section>
       <div class="container">
         <header>
-          <a href="#" class="logo">Social Credit on Sol</a> <!-- Bu sadece mobilde gizlenecek -->
+          <a href="#" class="logo">Social Credit on Sol</a>
          <ul class="social-icons">
            <li><a href="https://x.com/SOCIALCREDITS0L" target="_blank"><i class="fab fa-twitter"></i></a></li>
            <li><a href="https://dexscreener.com/solana/example_contract" target="_blank">
@@ -121,3 +121,4 @@
 
 </body>
 </html>
+
